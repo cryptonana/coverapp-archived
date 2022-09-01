@@ -6,8 +6,8 @@ const nameEX = "ZSmartex";
 
 export default {
   nameEX,
-  "default_market": "xumusdt",
-  "feature_markets": ["xumusdt", "xumeth", "xumbtc"],
+  "default_market": "ethusdt",
+  "feature_markets": ["ethusdt", "btcusdt"],
   "list_bid": ["ETH", "BTC", "USDT"],
   "messages": {
     en
@@ -21,9 +21,9 @@ export default {
         "/api/v2/websocket/private?stream=order&stream=trade&stream=balance",
     },
   },
-  "finex": false,
+  "finex": true,
   "recaptcha": {
-    sitekey: "6LcZRoEbAAAAAHU1DDilkyAm2NLH7qAHGy3TroGV",
+    sitekey: "6Lfy54QbAAAAAF68FeH5PNbvm1aeMbE1goAPx4F6",
   },
   "timeZone": Intl.DateTimeFormat().resolvedOptions().timeZone,
   "SESSION_KEY": "ALLOW-ALL", // For use on exchange
